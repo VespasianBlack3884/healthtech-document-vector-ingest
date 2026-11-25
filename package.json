@@ -1,0 +1,14 @@
+{
+  "name": "healthtech-document-vector-ingest",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types src/healthtech_ingest.test.ts",
+    "start": "node --experimental-strip-types src/healthtech_ingest.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^5.7.2"
+  }
+}
